@@ -1,10 +1,5 @@
 import {dog, cat} from "../data/petsData"
 
-console.log(dog)
-console.log(dog.name)
-console.log(dog.image)
-// console.log(cat)
-
 function PetList(){
     return (
         <ul className="pet-list">
@@ -17,7 +12,7 @@ function PetList(){
                 <h4>{cat.name}</h4>
             </li>
         </ul>
-    );
-};
+    )
+}
 
-export default PetList;
+export default PetList

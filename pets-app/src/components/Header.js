@@ -1,6 +1,3 @@
-// const food1 = "pizza"
-// const food2 = "ice cream"
-
 function Header(){
     return (
         <header>
@@ -11,7 +8,5 @@ function Header(){
         </header>
     )
 }
-
-// export {food1, food2};
 
 export default Header;
